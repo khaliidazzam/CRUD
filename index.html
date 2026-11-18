@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project IT</title>
+    <link rel="icon" href="images/icons8-buy-30.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&family=Jomhuria&family=Montserrat:wght@300;400;500;600;700&family=Work+Sans:wght@200;300;500;700;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!--start heder-->
+    <div class="header">
+        
+
+        <div class="info">
+            <h1>SHOPING CRUD</h1>
+
+            <label for="" class="text">Product Name</label>
+            <input type="text" id="ProductName">
+
+            <div id="pnamealert" >
+                <p>please start with capital letter</p>
+            </div>
+
+            <label for="">Product Category</label>
+            <input type="text" id="ProductCategory">
+
+            <label for="">Product Price</label>
+            <input type="text" id="ProductPrice">
+
+            <label for="">Product Description</label>
+            <textarea name="" id="ProductDescription"></textarea>
+
+            <button class="btn1" >Add Product</button>
+            <button class="btn2" > Clear Product</button>
+        </div>
+    </div>
+
+    <div class="search">
+        <input type="text" onkeyup="search(this.value)" placeholder="Search....."  id="searchInput">
+    </div>
+<div class="pop">
+    <table>
+        <thead>
+            <tr>
+                <td>id</td>
+                <td>ProductName</td>
+                <td>ProductPrice</td>
+                <td>ProductCat</td>
+                <td>ProductDes</td>
+                <td>Delete</td>
+                <td>Update</td>
+            </tr>
+        </thead>
+        <tbody id="tableRow">
+            <tr>
+                
+            </tr>
+        </tbody>
+    </table>
+    </div>
+    
+<p>Our Team Members</p>
+    <div class="parent">
+    
+        <div class="card">
+            <img src="images/mee.jpg" alt="khalid">
+            <h1>Khalid Azzam</h1>
+            <h4>iOS Developer</h4>
+        </div>
+    
+        <div class="card">
+            <img src="images/seka.jpg" alt="mohamed">
+            <h1>Mohamed Elsayed</h1>
+            <h4>Front-End Developer</h4>
+        </div>
+    
+        <div class="card">
+            <img src="images/aser.jpg" alt="aser">
+            <h1>Aser Ebrahim</h1>
+            <h4>Back-End Developer</h4>
+        </div>
+    
+    </div>
+    <!--end heder-->
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
