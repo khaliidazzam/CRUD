@@ -1,0 +1,224 @@
+* {
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+.header {
+    background-color: #19283f;
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info {
+
+    background-color: #eee;
+    width: 600px;
+    margin: 25px auto;
+    border-radius: 6PX;
+    box-shadow: 0px -4px 39px -6px #3bdfe2a1;
+    max-width: 95%;
+
+}
+
+@media (max-width: 480px) {
+    .box {
+        padding: 75px 25px;
+    }
+}
+
+#ProductName,
+#ProductCategory,
+#ProductPrice {
+    width: 90%;
+    margin-left: 25px;
+    height: 30px;
+    margin-bottom: 25px;
+    border-radius: 6px;
+}
+
+#ProductDescription {
+    width: 90%;
+    height: 100px;
+    margin-left: 25px;
+    border-radius: 6px;
+}
+
+.info label {
+    font-size: 20px;
+    font-weight: 500;
+    padding: 25px;
+    color: #777;
+
+}
+
+.info input {
+    margin-top: 10px;
+    border: 2px solid #33d1cc;
+
+
+}
+
+.info textarea {
+    margin-top: 10px;
+    border: 2px solid #33d1cc;
+}
+
+.header h1 {
+    text-align: center;
+    padding-top: 35px;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+
+.btn1,
+.btn2 {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    padding: 12px;
+    border-radius: 7px;
+    font-size: 15px;
+    border: 2px solid #33d1cc;
+}
+
+#pnamealert {
+    border-radius: 9px;
+    background-color: #f8d7da;
+    text-align: center;
+    padding: 11px;
+    width: 85%;
+    margin: 0px auto 24px;
+    color: #7e1e26;
+    font-size: 18px;
+    display: none;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #19283f;
+}
+
+.search input {
+    width: 50%;
+    height: 39px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+    border: 2px solid #33d1cc;
+}
+
+.search ::placeholder {
+    color: #777;
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+.pop {
+    background-color: #19283f;
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    padding: 25px;
+}
+
+table td {
+    padding: 25px;
+    background-color: #eee;
+
+}
+
+table thead td {
+    font-size: 20px;
+    color: rgb(57, 57, 57);
+}
+
+table tbody td {
+    font-size: 18px;
+    color: #777;
+}
+
+.btn {
+    padding: 12px;
+    border-radius: 7px;
+    background-color: #33d1cc;
+    font-size: 13px;
+    border: 1px solid #19283f;
+}
+div {
+    width: 100%;
+}
+
+p {
+    font-weight: bolder;
+    text-align: center;
+    font-size: larger;
+    padding-top: 50px;
+    background-color: #19283f;
+    color: white;
+    font-size: 25px;
+
+    transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+}
+
+img {
+    width: 120px;
+    border-radius: 50%;
+    padding-top: 15px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+        padding-top: 48px;
+            padding-bottom: 18px;
+            background-color: #19283f;
+}
+
+.card {
+    background-color: gray;
+    color: wheat;
+    width: 500px;
+    margin-left: 15px;
+
+    border-radius: 42px;
+    -webkit-border-radius: 42px;
+    -moz-border-radius: 42px;
+    -ms-border-radius: 42px;
+    -o-border-radius: 42px;
+
+    transition: all 1s linear;
+    -webkit-transition: all 1s linear;
+    -moz-transition: all 1s linear;
+    -ms-transition: all 1s linear;
+    -o-transition: all 1s linear;
+}
+
+.card:hover {
+    width: 80%;
+    background-color: rgb(65, 65, 65);
+    color: white;
+}
+.card h1{
+    padding-bottom: 15px;
+}
+.card h4{
+    padding-bottom: 15px;
+}
